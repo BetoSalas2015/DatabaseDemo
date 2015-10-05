@@ -22,13 +22,12 @@ public class DatabaseHelper extends SQLiteOpenHelper {
     public DatabaseHelper(Context context, String name, CursorFactory factory,
                           int version) {
         super(context, name, factory, version);
-        // TODO Auto-generated constructor stub
+
     }
 
     public DatabaseHelper(Context context, String name, CursorFactory factory,
                           int version, DatabaseErrorHandler errorHandler) {
         super(context, name, factory, version, errorHandler);
-        // TODO Auto-generated constructor stub
     }
 
     public DatabaseHelper(Context context)
